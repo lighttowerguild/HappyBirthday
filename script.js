@@ -24,10 +24,10 @@ var text = document.getElementById("title");
 var btn = document.getElementById("toggleconfetti");
 btn.addEventListener("click", function () {
   if (btn.innerHTML === "OFF") {
-    text.innerHTML = " &hearts; Chris, Renae, Laney, Kinley &hearts;";
+    text.innerHTML = " &hearts; [FAMILY NAME] &hearts;";
     btn.innerHTML = "CLICK!";
   } else {
-    text.innerHTML = "Happy 18th Birthday Kaylan!";
+    text.innerHTML = "Happy [NUMBER]th Birthday [NAME]!";
     btn.innerHTML = "OFF";
   }
 });
