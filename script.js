@@ -25,7 +25,7 @@ var btn = document.getElementById("toggleconfetti");
 btn.addEventListener("click", function () {
   if (btn.innerHTML === "OFF") {
     text.innerHTML = " &hearts; Chris, Renae, Laney, Kinley &hearts;";
-    btn.innerHTML = "CLICK ME!";
+    btn.innerHTML = "CLICK!";
   } else {
     text.innerHTML = "Happy 18th Birthday Kaylan!";
     btn.innerHTML = "OFF";
