@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Gloria+Hallelujah&effect=fire-animation");
+
+html {
+  background: url(images/beachBG.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  html {
+    height: 1024px;
+    overflow: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  html {
+    height: 768px;
+    overflow: none;
+  }
+}
+
+
+h1 {
+  font-family: "Gloria Hallelujah", cursive, sans-serif;
+  font-size: 3em;
+  margin-top: 2em;
+}
+
+@media only screen and (max-width: 1080px) {
+  h1 {
+    font-size: 2em;
+    margin-top: 1em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 2em;
+    margin-top: 2em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  img#bg {
+    height: 100%;
+  }
+}
+
+[data-component="slideshow"] .slide {
+  display: none;
+  margin: 10px auto 20px;
+}
+
+[data-component="slideshow"] .slide.active {
+  display: block;
+  margin: 10px auto 20px;
+}
+
+img.slides {
+  max-width: 100%;
+  width: 768px;
+  height: auto;
+  margin: 10px auto 20px;
+  display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  img.slides {
+    max-width: 100%;
+    width: 600px;
+    height: auto;
+    margin: 10px auto 20px;
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  img.slides {
+    width: 350px;
+    height: auto;
+  }
+}
+
+button#toggleconfetti {
+  border-radius: 50%;
+  font-size: 1em;
+  display: inline-block;
+  padding: 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  box-shadow: 0 9px #999;
+  position: fixed;
+  bottom: 5%;
+  left: 50%;
+  right: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  button#toggleconfetti {
+    position: absolute;
+    bottom: 30%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  button#toggleconfetti {
+    position: absolute;
+    bottom: 10%;
+  }
+}
+
+button#toggleconfetti:hover {
+  background-color: #3e8e41;
+}
+
+button#toggleconfetti:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
